@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/deploy.zip" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy.zip",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -29,23 +21,23 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/cover img.webp" : {
+    "\/deploy\/img\/coverimg.webp" : {
       "ft" : 8388608,
       "iS" : 64120,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cover img.webp",
+      "oAP" : "\/deploy\/img\/coverimg.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/nacklace 2.jpg" : {
+    "\/deploy\/img\/necklace2.jpg" : {
       "ft" : 16384,
       "iS" : 18562,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/nacklace 2.jpg",
+      "oAP" : "\/deploy\/img\/necklace2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -53,12 +45,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/necklace 3.jpeg" : {
+    "\/deploy\/img\/necklace3.jpeg" : {
       "ft" : 16384,
       "iS" : 15332,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/necklace 3.jpg",
+      "oAP" : "\/deploy\/img\/necklace3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -66,45 +58,45 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/necklace 4.webp" : {
+    "\/deploy\/img\/necklace4.webp" : {
       "ft" : 8388608,
       "iS" : 80054,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/necklace 4.webp",
+      "oAP" : "\/deploy\/img\/necklace4.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/openin img 1.webp" : {
+    "\/deploy\/img\/openinimg1.webp" : {
       "ft" : 8388608,
       "iS" : 124938,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/openin img 1.webp",
+      "oAP" : "\/deploy\/img\/openinimg1.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/openin img 2.webp" : {
+    "\/deploy\/img\/openinimg2.webp" : {
       "ft" : 8388608,
       "iS" : 40812,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/openin img 2.webp",
+      "oAP" : "\/deploy\/img\/openinimg2.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/ring 5.jpeg" : {
+    "\/deploy\/img\/ring5.jpeg" : {
       "ft" : 16384,
       "iS" : 38844,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ring 5.jpg",
+      "oAP" : "\/deploy\/img\/ring5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -112,12 +104,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ring 6.jpg" : {
+    "\/deploy\/img\/ring6.jpg" : {
       "ft" : 16384,
       "iS" : 190094,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ring 6.jpg",
+      "oAP" : "\/deploy\/img\/ring6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -144,12 +136,68 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev.zip" : {
+    "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev.zip",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/new.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/subHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/subHero.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -157,8 +205,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -166,8 +214,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -412,8 +460,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
