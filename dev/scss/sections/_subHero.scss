@@ -1,0 +1,54 @@
+#subHero{
+    background-color: var(--white);
+    ul{
+        margin: 0;
+        padding: 0;
+    
+        li{
+        
+            list-style: none;
+            background-color: var(--white);
+            padding-top: 90px;
+            padding-bottom: 100px;
+            width: 100%;
+            margin-bottom: 15px;
+            text-align: left;
+
+           }
+            }
+         }
+    
+
+    .subHero{
+            // Small devices
+                @include sm{
+                grid-template-columns: repeat(1fr);
+            
+                }
+            }
+                 
+            // Medium devices
+            @include md{
+                ul{
+
+                
+                margin: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                }
+            }
+        
+            
+               
+            // Large devices
+
+                @include lg{
+                    ul{
+        
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+           
+

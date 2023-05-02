@@ -1,3 +1,12 @@
+:root {
+  --darkblue:#243347;
+  --blue: #304560;
+  --lightblue:#ACC9EF;
+  --darkgray: #94A0AF;
+  --gray: #D8DDE2;
+  --white: #F2F2F2;
+}
+
 /* =============
     Mixins
 ============= */
@@ -6,6 +15,14 @@
 /* =============
     Variables
 ============= */
+:root {
+  --darkblue:#243347;
+  --blue: #304560;
+  --lightblue:#ACC9EF;
+  --darkgray: #94A0AF;
+  --gray: #D8DDE2;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -331,6 +348,10 @@ ul li {
   list-style: none;
 }
 
+.large-images {
+  width: 100%;
+}
+
 .container-grid {
   display: grid;
   grid-template-columns: auto 1200px auto;
@@ -343,6 +364,10 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  width: 100%;
 }
 
 /* =============
@@ -401,12 +426,153 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 30px 0;
+  text-align: center;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--darkblue);
+  color: var(--white);
+  padding: 40px 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  ul {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 992px) {
+  ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 /* =============
     Header
 ============= */
+header {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 30px 0;
+  text-align: center;
+}
+
+#hero ul {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#subHero {
+  background-color: var(--white);
+}
+#subHero ul {
+  margin: 0;
+  padding: 0;
+}
+#subHero ul li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+@media (min-width: 576px) {
+  .subHero {
+    grid-template-columns: repeat(1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+#new li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 40px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#gallery {
+  background-color: var(--white);
+}
+#gallery ul {
+  margin: 0;
+  padding: 0;
+}
+#gallery ul li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  #gallery .gallery {
+    grid-template-columns: repeat(1fr);
+  }
+}
+@media (min-width: 768px) {
+  #gallery ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+  }
+}
+@media (min-width: 992px) {
+  #gallery ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4px;
+  }
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--darkblue);
+  color: var(--white);
+  padding: 40px 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  ul {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 992px) {
+  ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}

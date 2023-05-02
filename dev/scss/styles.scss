@@ -1,5 +1,16 @@
 @charset 'utf-8';
 
+:root {
+    --darkblue:#243347;
+    --blue: #304560;
+    --lightblue:#ACC9EF; 
+    --darkgray: #94A0AF;
+    --gray: #D8DDE2;
+    --white: #F2F2F2;
+    
+}
+
+
 // Helpers Styles
 @import "helpers/_mixins";
 @import "helpers/_variables";

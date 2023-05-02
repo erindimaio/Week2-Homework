@@ -16,10 +16,12 @@ $screen-lg-min: 992px;
 $screen-xl-min: 1200px;
 
 // Colors
-$white: #fff;
-$black: #000;
-$grey: #c9cbcb;
-$teal: #56c4cf;
-$medium-teal: #459ca6;
-$dark-teal: #306b71;
-$light-grey: #f2f3f7;
+:root {
+    --darkblue:#243347;
+    --blue: #304560;
+    --lightblue:#ACC9EF; 
+    --darkgray: #94A0AF;
+    --gray: #D8DDE2; 
+}
+
+
