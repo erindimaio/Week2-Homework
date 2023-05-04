@@ -1,12 +1,39 @@
 #new{
    
-        li{
-            list-style: none;
-            background-color: var(--white);
-            padding-top: 40px;
+    background-color: var(--white);
+            padding-top: 90px;
             padding-bottom: 100px;
             width: 100%;
             margin-bottom: 15px;
             text-align: center;
         }
+    
+
+.new{
+    // Small devices
+        @include sm{
+        grid-template-columns: (1fr);
+    
+        }
     }
+         
+    // Medium devices
+    @include md{
+           ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 4px;
+          
+           }
+        }
+    
+       
+    // Large devices
+        @include lg{
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-gap: 4px;
+            }     
+        }
+    

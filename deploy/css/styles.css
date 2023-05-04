@@ -370,6 +370,10 @@ img {
   width: 100%;
 }
 
+button {
+  background-color: var(--lightblue);
+}
+
 /* =============
     Typography
 ============= */
@@ -426,41 +430,91 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  background-color: var(--blue);
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--darkblue);
   color: var(--white);
-  padding: 30px 0;
+  padding: 25px 0;
+}
+#header div.searchbarmiddle {
+  background-color: var(--darkblue);
   text-align: center;
+}
+#header div.Slogo {
+  background-color: var(--darkblue);
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  #header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* =============
     Footer
 ============= */
-footer {
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: var(--darkblue);
   color: var(--white);
-  padding: 40px 0;
-  text-align: left;
 }
-
+#footer div.leftside {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+#footer div.middle {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+#footer div.rightside {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
 @media (min-width: 768px) {
-  ul {
-    grid-template-columns: 1fr 2fr;
-  }
-}
-@media (min-width: 992px) {
-  ul {
+  #footer {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (min-width: 992px) {
+  #footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 /* =============
     Header
 ============= */
-header {
-  background-color: var(--blue);
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--darkblue);
   color: var(--white);
-  padding: 30px 0;
+  padding: 25px 0;
+}
+#header div.searchbarmiddle {
+  background-color: var(--darkblue);
   text-align: center;
+}
+#header div.Slogo {
+  background-color: var(--darkblue);
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  #header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 #hero ul {
@@ -469,57 +523,78 @@ header {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 #subHero {
-  background-color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr;
 }
-#subHero ul {
-  margin: 0;
-  padding: 0;
+#subHero div.left {
+  background-color: var(--darkgray);
 }
-#subHero ul li {
-  list-style: none;
+#subHero div.right {
+  background-color: var(--lightblue);
+}
+@media (min-width: 768px) {
+  #subHero {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  #subHero {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#subInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--gray);
+}
+@media (min-width: 768px) {
+  #subInfo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  #subInfo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#new {
   background-color: var(--white);
   padding-top: 90px;
   padding-bottom: 100px;
   width: 100%;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
-  .subHero {
-    grid-template-columns: repeat(1fr);
+  .new {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 768px) {
   ul {
-    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
   }
 }
 @media (min-width: 992px) {
   ul {
-    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
   }
 }
-#new li {
-  list-style: none;
-  background-color: var(--white);
-  padding-top: 40px;
-  padding-bottom: 100px;
-  width: 100%;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 #gallery {
   background-color: var(--white);
 }
@@ -559,20 +634,31 @@ header {
 /* =============
     Footer
 ============= */
-footer {
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: var(--darkblue);
   color: var(--white);
-  padding: 40px 0;
-  text-align: left;
 }
-
+#footer div.leftside {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+#footer div.middle {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+#footer div.rightside {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
 @media (min-width: 768px) {
-  ul {
-    grid-template-columns: 1fr 2fr;
+  #footer {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 992px) {
-  ul {
-    grid-template-columns: 1fr 1fr;
+  #footer {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

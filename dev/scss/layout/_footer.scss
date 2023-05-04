@@ -2,29 +2,38 @@
     Footer
 ============= */
 
-
-footer{
+#footer{
+        
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: var(--darkblue);
     color: var(--white);
-    padding: 40px 0;
-    text-align: left; 
-}
-
-    // Medium devices
-    @include md{
-        ul{
-        grid-template-columns: 1fr 2fr;
-        }
-    }
-
     
-       
-    // Large devices
 
-        @include lg{
-            ul{
-            grid-template-columns: 1fr 1fr;
-        }
+    div.leftside{
+      background-color: var(--darkblue);
+    color: var(--white);
+
     }
-   
 
+    div.middle{
+        background-color: var(--darkblue);
+    color: var(--white);
+    }
+    
+    div.rightside{
+        background-color: var(--darkblue);
+    color: var(--white);
+    }
+
+    @include md{
+    
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+} 
+   

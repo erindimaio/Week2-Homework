@@ -2,10 +2,32 @@
     Header
 ============= */
 
-header{
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 30px 0;
-    text-align: center; 
+#header{
+
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--darkblue);
+        color: var(--white);
+        padding: 25px 0;
+
+      div.searchbarmiddle{
+    background-color: var(--darkblue);
+    text-align: center;
+ 
+      }
+
+    div.Slogo{
+        background-color: var(--darkblue);
+        text-align: right;
+    }
+     @include md{
+    
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
+   
