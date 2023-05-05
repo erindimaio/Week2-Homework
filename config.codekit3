@@ -91,6 +91,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/deploy\/img\/profileicon.png" : {
+      "ft" : 32768,
+      "iS" : 635,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/profileicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/ring5.jpeg" : {
       "ft" : 16384,
       "iS" : 38844,
@@ -115,6 +128,32 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/searchicon.png" : {
+      "ft" : 32768,
+      "iS" : 388,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/searchicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/shoppingicon.png" : {
+      "ft" : 32768,
+      "iS" : 654,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/shoppingicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/index.html" : {
@@ -401,21 +440,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_gallery.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_head.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_head.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

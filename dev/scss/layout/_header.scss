@@ -2,32 +2,84 @@
     Header
 ============= */
 
-#header{
-
+header{
     display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: var(--darkblue);
-        color: var(--white);
-        padding: 25px 0;
-
-      div.searchbarmiddle{
+    grid-template-columns: 1fr;
     background-color: var(--darkblue);
+    color: var(--white);
+    padding: 25px 0;
     text-align: center;
- 
-      }
+    padding-bottom: 0;
 
-    div.Slogo{
+form#profile{
+        display: grid;
+        background-color: var(--darkblue);
+        text-align: left;
+        color: var(--black);
+        width: 5%;
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px 6px 11px;
+        img{
+
+        }
+
+    }
+
+form#cart{
+        display: grid;
+        background-color: var(--darkblue);
+        text-align: left;
+        color: var(--white);
+        width: 5%;
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px 6px 11px;
+        img{
+
+        }
+    
+    }
+
+ div.Slogo{
+        display: grid;
         background-color: var(--darkblue);
         text-align: right;
-    }
-     @include md{
+            }
+
+div.searchbarmiddle{
+    background-color: var(--darkblue);
+    text-align: center;
+
+      }
+
+
+form#searcharea{
+
+    display: flex;
+    width: 100%;
+    background-color: var(--white);
+    padding: 20px 0;
+    padding-bottom: 0;
+    align-items:stretch;
+    justify-content: space-between;
+    gap: 10px;
     
-        grid-template-columns: 1fr 1fr 1fr;
+    input{ 
+        border: none;
+        border-bottom: 1px solid var(--white);
+        width: 100%;
     }
 
-    @include lg{
-        grid-template-columns: 1fr 1fr 1fr;
+    button{
+        background-color: var(lightblue);
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px 6px 11px;
     }
+
+    img{
+
+    }
+   }      
 }
-
-   

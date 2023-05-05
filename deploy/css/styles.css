@@ -21,6 +21,7 @@
   --lightblue:#ACC9EF;
   --darkgray: #94A0AF;
   --gray: #D8DDE2;
+  --black: #000000;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -430,32 +431,65 @@ textarea {
 /* =============
     Header
 ============= */
-#header {
+header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: var(--darkblue);
   color: var(--white);
   padding: 25px 0;
-}
-#header div.searchbarmiddle {
-  background-color: var(--darkblue);
   text-align: center;
+  padding-bottom: 0;
 }
-#header div.Slogo {
+header form#profile {
+  display: grid;
+  background-color: var(--darkblue);
+  text-align: left;
+  color: var(--black);
+  width: 5%;
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
+header form#cart {
+  display: grid;
+  background-color: var(--darkblue);
+  text-align: left;
+  color: var(--white);
+  width: 5%;
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
+header div.Slogo {
+  display: grid;
   background-color: var(--darkblue);
   text-align: right;
 }
-@media (min-width: 768px) {
-  #header {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+header div.searchbarmiddle {
+  background-color: var(--darkblue);
+  text-align: center;
 }
-@media (min-width: 992px) {
-  #header {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+header form#searcharea {
+  display: flex;
+  width: 100%;
+  background-color: var(--white);
+  padding: 20px 0;
+  padding-bottom: 0;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
 }
-
+header form#searcharea input {
+  border: none;
+  border-bottom: 1px solid var(--white);
+  width: 100%;
+}
+header form#searcharea button {
+  background-color: var(lightblue);
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
 /* =============
     Footer
 ============= */
@@ -491,39 +525,71 @@ textarea {
 /* =============
     Header
 ============= */
-#header {
+header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: var(--darkblue);
   color: var(--white);
   padding: 25px 0;
-}
-#header div.searchbarmiddle {
-  background-color: var(--darkblue);
   text-align: center;
+  padding-bottom: 0;
 }
-#header div.Slogo {
+header form#profile {
+  display: grid;
+  background-color: var(--darkblue);
+  text-align: left;
+  color: var(--black);
+  width: 5%;
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
+header form#cart {
+  display: grid;
+  background-color: var(--darkblue);
+  text-align: left;
+  color: var(--white);
+  width: 5%;
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
+header div.Slogo {
+  display: grid;
   background-color: var(--darkblue);
   text-align: right;
 }
-@media (min-width: 768px) {
-  #header {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+header div.searchbarmiddle {
+  background-color: var(--darkblue);
+  text-align: center;
 }
-@media (min-width: 992px) {
-  #header {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+header form#searcharea {
+  display: flex;
+  width: 100%;
+  background-color: var(--white);
+  padding: 20px 0;
+  padding-bottom: 0;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
 }
-
+header form#searcharea input {
+  border: none;
+  border-bottom: 1px solid var(--white);
+  width: 100%;
+}
+header form#searcharea button {
+  background-color: var(lightblue);
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+}
 #hero ul {
   list-style: none;
   background-color: var(--white);
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
-  margin-bottom: 10px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
@@ -571,7 +637,6 @@ textarea {
   padding-top: 90px;
   padding-bottom: 100px;
   width: 100%;
-  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -608,7 +673,6 @@ textarea {
   padding-top: 90px;
   padding-bottom: 100px;
   width: 100%;
-  margin-bottom: 15px;
   text-align: center;
 }
 @media (min-width: 576px) {
