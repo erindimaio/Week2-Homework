@@ -371,10 +371,6 @@ img {
   width: 100%;
 }
 
-button {
-  background-color: var(--lightblue);
-}
-
 /* =============
     Typography
 ============= */
@@ -440,34 +436,30 @@ header {
   text-align: center;
   padding-bottom: 0;
 }
-header form#profile {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: left;
-  color: var(--black);
-  width: 5%;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+header .headerbuttons {
+  padding: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+header .headerbuttons button {
   border-radius: 3.5px;
   border: none;
   padding: 6px 11px 6px 11px;
+  background-color: transparent !important;
 }
-header form#cart {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: left;
-  color: var(--white);
-  width: 5%;
-  border-radius: 3.5px;
+header .compname {
+  justify-content: space-between;
+  padding: 0;
+}
+header .Slogo button {
   border: none;
-  padding: 6px 11px 6px 11px;
-}
-header div.Slogo {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: right;
-}
-header div.searchbarmiddle {
-  background-color: var(--darkblue);
-  text-align: center;
+  background-color: transparent !important;
 }
 header form#searcharea {
   display: flex;
@@ -485,10 +477,10 @@ header form#searcharea input {
   width: 100%;
 }
 header form#searcharea button {
-  background-color: var(lightblue);
   border-radius: 3.5px;
   border: none;
   padding: 6px 11px 6px 11px;
+  background-color: var(--lightblue);
 }
 /* =============
     Footer
@@ -500,19 +492,31 @@ header form#searcharea button {
   color: var(--white);
 }
 #footer div.leftside {
-  background-color: var(--darkblue);
   color: var(--white);
 }
 #footer div.middle {
+  display: flex;
   background-color: var(--darkblue);
   color: var(--white);
 }
-#footer div.rightside {
-  background-color: var(--darkblue);
-  color: var(--white);
+#footer div.socialmedia {
+  padding: 0;
+  padding-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+#footer div.socialmedia flex button {
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+  width: 100%;
+}
+#footer div.socialmedia img {
+  width: 20%;
 }
 @media (min-width: 768px) {
   #footer {
+    flex-flow: column;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -534,34 +538,30 @@ header {
   text-align: center;
   padding-bottom: 0;
 }
-header form#profile {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: left;
-  color: var(--black);
-  width: 5%;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+header .headerbuttons {
+  padding: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+header .headerbuttons button {
   border-radius: 3.5px;
   border: none;
   padding: 6px 11px 6px 11px;
+  background-color: transparent !important;
 }
-header form#cart {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: left;
-  color: var(--white);
-  width: 5%;
-  border-radius: 3.5px;
+header .compname {
+  justify-content: space-between;
+  padding: 0;
+}
+header .Slogo button {
   border: none;
-  padding: 6px 11px 6px 11px;
-}
-header div.Slogo {
-  display: grid;
-  background-color: var(--darkblue);
-  text-align: right;
-}
-header div.searchbarmiddle {
-  background-color: var(--darkblue);
-  text-align: center;
+  background-color: transparent !important;
 }
 header form#searcharea {
   display: flex;
@@ -579,10 +579,10 @@ header form#searcharea input {
   width: 100%;
 }
 header form#searcharea button {
-  background-color: var(lightblue);
   border-radius: 3.5px;
   border: none;
   padding: 6px 11px 6px 11px;
+  background-color: var(--lightblue);
 }
 #hero ul {
   list-style: none;
@@ -614,6 +614,10 @@ header form#searcharea button {
   #subHero {
     grid-template-columns: 1fr 1fr;
   }
+}
+#subHero button {
+  background-color: var(--lightblue);
+  padding: 6px 11px 6px 11px;
 }
 
 #subInfo {
@@ -673,7 +677,11 @@ header form#searcharea button {
   padding-top: 90px;
   padding-bottom: 100px;
   width: 100%;
-  text-align: center;
+  text-align: left;
+}
+#gallery button {
+  border: none;
+  padding: 6px 11px 6px 11px;
 }
 @media (min-width: 576px) {
   #gallery .gallery {
@@ -705,19 +713,31 @@ header form#searcharea button {
   color: var(--white);
 }
 #footer div.leftside {
-  background-color: var(--darkblue);
   color: var(--white);
 }
 #footer div.middle {
+  display: flex;
   background-color: var(--darkblue);
   color: var(--white);
 }
-#footer div.rightside {
-  background-color: var(--darkblue);
-  color: var(--white);
+#footer div.socialmedia {
+  padding: 0;
+  padding-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+#footer div.socialmedia flex button {
+  border-radius: 3.5px;
+  border: none;
+  padding: 6px 11px 6px 11px;
+  width: 100%;
+}
+#footer div.socialmedia img {
+  width: 20%;
 }
 @media (min-width: 768px) {
   #footer {
+    flex-flow: column;
     grid-template-columns: 1fr 1fr;
   }
 }
