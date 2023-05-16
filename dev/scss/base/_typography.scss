@@ -10,11 +10,58 @@ h1,h2,h3,h4{
     padding: 0;
 }
 
-p{
-    margin: 0;
-    padding: 0;
-}
-
 .section-title{
     font-weight: 300;
+}
+
+
+
+
+p{
+    font-family: 0xygen;
+    font-weight: normal;
+    font-size: 16px;  
+  
+}
+
+h2{
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+h1{
+    font-family: Oxygen;
+    font-weight: normal;
+    font-size: 22px; 
+}
+
+h3{
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 27px; 
+}
+
+h4{
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+h5{
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+h6{
+    font-family: Oxygen;
+    font-weight: normal;
+    font-size: 12px; 
+}
+
+h7{
+    font-family: Oxygen;
+    font-weight: light;
+    font-size: 37px; 
 }

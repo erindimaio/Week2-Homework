@@ -1,44 +1,65 @@
-#subHero{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-      div.left{
+#subHero {
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+  div.left {
     background-color: var(--darkgray);
-    }
-    
-    div.right{
-    background-color: var(--lightblue);
-    }
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-     @include md{
-    grid-template-columns: 1fr 1fr;
-    }
-
-    @include lg{
-    grid-template-columns: 1fr 1fr;
-    }
-    
-    button{
+  div.right {
     background-color: var(--lightblue);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include md {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include lg {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  button {
     padding: 6px 11px 6px 11px;
-   
-    }
+    background-color: transparent !important;
+    border: none;
+    align-items: stretch;
+  }
 }
 
 
 
- #subInfo{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: var(--gray);
-       
+#subInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--gray);
+  padding: 30px;
+  margin: 15px;
+  gap: 15px;
+ 
+  
+ 
+  button {
+    background-color: var(--lightblue);
+    padding: 6px 11px 6px 11px;
+    border: none;
+  } 
 
-    @include md{
+ 
+
+  @include md {
     grid-template-columns: 1fr 1fr;
-    }
-    
-    @include lg{
+  }
+
+  @include lg {
     grid-template-columns: 1fr 1fr;
-    }
- }
-    
+  }
+
+}

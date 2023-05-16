@@ -2,52 +2,77 @@
     Footer
 ============= */
 
-#footer{
+#footer {
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--darkblue);
-    color: var(--white);
-    
-    
-    
-    
-    div.leftside{
-    color: var(--white);
+    color: var(--textgray);
+
+    div.place {
+        padding-left: 25px;
+    }
+    div.address {
+        display: flex;
+        img {
+            width: 5%;
+        }
     }
 
-    div.middle{
+    div.number {
+        display: flex;
+        img {
+            width: 5%;
+        }
+    }
+    div.arrowphone {
+        width: 5%;
+        background-color: transparent !important;
+    }
+
+
+
+    div.leftside {
+        width: 100%;
+    }
+
+
+    div.middle {
         display: flex;
         background-color: var(--darkblue);
-    color: var(--white);
+
+        button {
+            background-color: var(--lightblue);
+            padding: 6px 11px 6px 11px;
+            border: none;
+        }
     }
+
+    div.socialmedia {
+        padding: 0;
+        padding-bottom: 0;
+        text-align: left;
+        width: 100%;
+        flex-flow: column;
     
 
-    div.socialmedia{
-    padding: 0;
-    padding-bottom: 0;
-    text-align: left;
-    width: 100%; 
-    flex
-
-        button{
-            border-radius: 3.5px;
-            border: none;
-            padding: 6px 11px 6px 11px;
-            width: 100%; 
+        img {
+            width: 10%;
+            grid-template-areas:
+                "yt tw ig fb";
         }
-        img{
-            width: 20%; 
-        }
-       }  
+    }
 
-    @include md{
-    flex-flow: column;
+    
+
+    @include md {
         grid-template-columns: 1fr 1fr;
+    
     }
 
-    @include lg{
+    @include lg {
         grid-template-columns: 1fr 1fr 1fr;
-    }
 
-} 
-   
+
+
+    }
+}

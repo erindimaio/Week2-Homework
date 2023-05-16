@@ -155,26 +155,39 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/openinimg1.webp" : {
+    "\/deploy\/img\/openingimg1.webp" : {
       "ft" : 8388608,
       "iS" : 124938,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/openinimg1.webp",
+      "oAP" : "\/deploy\/img\/openingimg1.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/openinimg2.webp" : {
+    "\/deploy\/img\/openingimg2.webp" : {
       "ft" : 8388608,
       "iS" : 40812,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/openinimg2.webp",
+      "oAP" : "\/deploy\/img\/openingimg2.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/openingimg3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 104057,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/openingimg3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/phone.png" : {

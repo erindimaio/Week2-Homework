@@ -1,39 +1,76 @@
-#new{
-   
-    background-color: var(--white);
-            padding-top: 90px;
-            padding-bottom: 100px;
-            width: 100%;
-        
-            text-align: center;
-        }
-    
+#new {
 
-.new{
-    // Small devices
-        @include sm{
-        grid-template-columns: (1fr);
-    
+    ul {
+
+        padding-top: 90px;
+        padding-bottom: 100px;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "openingimg1"
+            "openingimg2"
+            "openingimg3";
+
+
+        li.openingimg1 {
+            grid-area: openingimg1;
+            height: 400px;
+            background-image: url(../img/openingimg1.webp);
+            background-size: cover;
+            background-position: center center;
+        }
+
+
+        li.openingimg2 {
+            grid-area: openingimg2;
+            height: 400px;
+            background-image: url(../img/openingimg2.webp);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        li.openingimg3 {
+            grid-area: openingimg3;
+            height: 400px;
+            background-image: url(../img/openingimg3.jpeg);
+            background-size: cover;
+            background-position: center center;
+            display: none;
+        }
+
+
+        @include md {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "openingimg2 openingimg1";
+
+            li.openingimg2,
+            li.openingimg1 {
+            height: 900px;
+            }
+        }
+
+
+        @include lg {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "openingimg1 openingimg2"
+            "openingimg1 openingimg3";
+
+            li.openingimg3 {
+                height: 500px;
+                display: inline;
+            }
+
+            li.openingimg1 {
+                height: auto;
+            }
+
+            li.openingimg2 {
+                height: 500px;
+            }
         }
     }
-         
-    // Medium devices
-    @include md{
-           ul{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 4px;
-          
-           }
-        }
-    
-       
-    // Large devices
-        @include lg{
-            ul{
-                display: grid;
-                grid-template-columns: 1fr 1fr ;
-                grid-gap: 4px;
-            }     
-        }
-    
+}

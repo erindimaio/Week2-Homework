@@ -1,15 +1,12 @@
-
-#hero{
-   
-    ul{
+#hero {
+    ul {
         list-style: none;
-        background-color: var(--white);
         padding-top: 50px;
         padding-bottom: 50px;
         width: 100%;
-    
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
+        background-color: var(--white);
     }
 }
