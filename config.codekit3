@@ -67,6 +67,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/checkmark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/checkmark.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/coverimg.webp" : {
       "ft" : 8388608,
       "iS" : 64120,
@@ -231,6 +241,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/profile.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/questionmark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/questionmark.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

@@ -39,20 +39,38 @@
 #subInfo {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--gray);
-  padding: 30px;
-  margin: 15px;
-  gap: 15px;
- 
-  
- 
+  grid-gap: 1px;
+
+  div.rightinfo {
+    padding: 30px;
+    margin: 15px;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+  }
+
   button {
     background-color: var(--lightblue);
     padding: 6px 11px 6px 11px;
     border: none;
-  } 
+  }
 
- 
+  img {
+    width: 100px;
+
+  }
+
+  div.leftinfo {
+    padding: 30px;
+    margin: 15px;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 100px;
+  }
 
   @include md {
     grid-template-columns: 1fr 1fr;
@@ -61,5 +79,7 @@
   @include lg {
     grid-template-columns: 1fr 1fr;
   }
+
+
 
 }

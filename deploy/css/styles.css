@@ -21,6 +21,7 @@
   --lightblue:#ACC9EF;
   --darkgray: #94A0AF;
   --gray: #D8DDE2;
+  --lightgray: #F8F9FA;
   --black: #000000;
   --textgray: #E0DFD5;
 }
@@ -518,7 +519,7 @@ header .Slogo button {
 header form#searcharea {
   display: flex;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--lightgray);
   padding: 20px 0;
   padding-bottom: 0;
   align-items: stretch;
@@ -527,7 +528,7 @@ header form#searcharea {
 }
 header form#searcharea input {
   border: none;
-  border-bottom: 1px solid var(--darkblue);
+  border-bottom: 1.5px solid var(--darkblue);
   width: 100%;
 }
 header form#searcharea button {
@@ -536,6 +537,7 @@ header form#searcharea button {
   padding: 6px 11px 6px 11px;
   background-color: var(--lightblue);
 }
+
 /* =============
     Footer
 ============= */
@@ -645,7 +647,7 @@ header .Slogo button {
 header form#searcharea {
   display: flex;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--lightgray);
   padding: 20px 0;
   padding-bottom: 0;
   align-items: stretch;
@@ -654,7 +656,7 @@ header form#searcharea {
 }
 header form#searcharea input {
   border: none;
-  border-bottom: 1px solid var(--darkblue);
+  border-bottom: 1.5px solid var(--darkblue);
   width: 100%;
 }
 header form#searcharea button {
@@ -663,10 +665,10 @@ header form#searcharea button {
   padding: 6px 11px 6px 11px;
   background-color: var(--lightblue);
 }
+
 #hero ul {
   list-style: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
   width: 100%;
   text-align: center;
   display: grid;
@@ -710,15 +712,32 @@ header form#searcharea button {
 #subInfo {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--gray);
+  grid-gap: 1px;
+}
+#subInfo div.rightinfo {
   padding: 30px;
   margin: 15px;
-  gap: 15px;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: space-between;
 }
 #subInfo button {
   background-color: var(--lightblue);
   padding: 6px 11px 6px 11px;
   border: none;
+}
+#subInfo img {
+  width: 100px;
+}
+#subInfo div.leftinfo {
+  padding: 30px;
+  margin: 15px;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+}
+#subInfo img {
+  width: 100px;
 }
 @media (min-width: 768px) {
   #subInfo {
@@ -732,8 +751,8 @@ header form#searcharea button {
 }
 
 #new ul {
-  padding-top: 90px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
   text-align: center;
   display: grid;
@@ -793,8 +812,11 @@ header form#searcharea button {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  background-color: var(--gray);
   padding-top: 40px;
+  padding-bottom: 40px;
+}
+#gallery section {
+  background-color: var(--lightgray);
 }
 #gallery section .gall {
   padding: 10px;
@@ -836,7 +858,8 @@ header form#searcharea button {
 #gallery li.imgthree {
   display: inline;
 }
-#gallery li.imgtwo, #gallery li.imgthree {
+#gallery li.imgtwo,
+#gallery li.imgthree {
   height: 400px;
 }
 #gallery li.imgone {
